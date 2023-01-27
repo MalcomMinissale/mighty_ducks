@@ -22,10 +22,16 @@ h1{
         padding: 20px 0px 20px;
     }
 
-    nav a{
+    nav {
         display: block;
-        padding: 8px 16px;
     }
+
+    li a {
+        display: block;
+     
+        padding: 8px 16px;
+       
+      }
 
 
       #home, #about, #contact {

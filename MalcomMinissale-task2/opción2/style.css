@@ -22,7 +22,7 @@ h2 {
     
 }
 
-a {
+nav a {
     background-color: blue;
     text-decoration: none;
     color: white;
@@ -50,18 +50,20 @@ article {
 nav {
     text-align: right;
     font-size: x-large;
-    position: relative;
-    bottom: 250px;
+    position: absolute;
+    bottom: 420px;
     right: 59px;
     
 }
-div{
+#encabezado {
     background-image: url(./design1_image1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 
-    padding: 100px 0px 100px; }
+    padding: 100px 0px 100px; 
+    margin: 0px;
+}
 
     #upcoming {
         text-align: center;
@@ -79,4 +81,28 @@ section {
    top: 450px;
    right: 500px;
 
+}
+
+#about2, #contact2 {
+    color: black;
+    position: absolute;
+
+    
+}
+
+div {
+    margin: 15px 0px 15px;
+}
+
+#mailto {
+    
+    text-decoration: underline;
+    color: blue;
+    
+    border-color: black;
+
+}
+
+div h4 {
+    margin: 15px;
 }

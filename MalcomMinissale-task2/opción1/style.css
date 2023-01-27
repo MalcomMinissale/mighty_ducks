@@ -27,6 +27,10 @@ h1{
         padding: 8px 16px;
     }
 
+    nav {
+        display: inline;
+    }
+
 
       #home, #about, #contact {
         color: black;

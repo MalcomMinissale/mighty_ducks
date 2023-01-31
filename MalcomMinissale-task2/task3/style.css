@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+h1 {
+    padding: 50px 10px 25px 10px;
+    font-size: 500%;
+}
+
+h2 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px 0px;
+    
+}
+
+nav a {
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+   
+    border-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+aside {
+    display: inline;
+}
+article {
+    display: inline;
+    margin: 20px;
+}
+
+#home, #about, #contact, #rules, #gameInfo {
+    background-color: green;
+    text-decoration-line: none;
+    color: white;
+}
+
+nav {
+    text-align: right;
+    font-size: x-large;
+    position: absolute;
+    bottom: 420px;
+    right: 59px;
+    
+}
+#encabezado {
+    background-image: url(./imagenes/design1_image1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    padding: 100px 0px 100px; 
+    margin: 0px;
+}
+
+    #upcoming {
+        text-align: center;
+        background-color: black;
+        color: white;
+        background-image: url(./imagenes/Logo_Mighty_ducks-01.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 20px 0px 20px;
+    }
+
+#articulosHome {
+   position:absolute;
+   top: 450px;
+   right: 500px;
+
+}
+
+#about2, #contact2 {
+    color: black;
+    position: absolute;
+
+    
+}
+
+div {
+    margin: 15px 0px 15px;
+}
+
+#mailto {
+    
+    text-decoration: underline;
+    color: blue;
+    
+    border-color: black;
+
+}
+
+div h4 {
+    margin: 15px;
+}
+
+/* #aside {
+   position: relative;
+   top:-1rem;
+} */
+
+#tituloRules {
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+    }
+
+    #encabezadoRules {
+        display: flex;
+        margin: 0px;
+        
+    }

@@ -89,6 +89,8 @@ nav {
     border-style: solid;
     border-radius: 1rem;
     margin-left: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
  /*   position:absolute;
    top: 450px;
    right: 500px;
@@ -102,11 +104,15 @@ nav {
     
 }
 
-div {
-    margin: 15px 0px 15px;
+#about2 div {
+    padding: 1rem;
 }
 
-#mailto {
+/* div {
+    margin: 15px 0px 15px;
+}
+ */
+.mailto {
     
     text-decoration: underline;
     color: blue;
@@ -201,4 +207,5 @@ a {
 
 #video {
     padding: 20px 5rem;
+    border: none;
 }

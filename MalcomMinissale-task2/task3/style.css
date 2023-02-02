@@ -171,3 +171,11 @@ table, th, td {
     text-decoration: underline;
     font-style: italic;
 }
+
+ol{
+    padding-left: 1rem;
+}
+
+ul{
+    padding-left: 1rem;
+}

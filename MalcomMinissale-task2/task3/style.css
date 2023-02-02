@@ -52,9 +52,9 @@ article {
 nav {
     text-align: right;
     font-size: x-large;
-    position: absolute;
-    bottom: 420px;
-    right: 59px;
+    position: relative;
+    bottom: 16rem;
+    right: 2rem;
     
 }
 #encabezado {

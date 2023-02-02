@@ -78,11 +78,21 @@ nav {
         padding: 20px 0px 20px;
     }
 
+#homeIndex {
+    display: inline-flex;
+}
+
 #articulosHome {
-   position:absolute;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    border-style: solid;
+    border-radius: 1rem;
+    margin-left: 5rem;
+ /*   position:absolute;
    top: 450px;
    right: 500px;
-
+ */
 }
 
 #about2, #contact2 {
@@ -178,4 +188,17 @@ ol{
 
 ul{
     padding-left: 1rem;
+}
+
+a {
+    /* background-color: powderblue; */
+    transition: background-color .5s;
+  }
+  
+  a:hover {
+    background-color: gold;
+  }
+
+#video {
+    padding: 20px 5rem;
 }

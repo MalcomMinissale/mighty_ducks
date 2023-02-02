@@ -27,8 +27,9 @@ nav a {
     text-decoration: none;
     color: white;
     padding: 7px;
-   
     border-color: black;
+    border-style: solid;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.361);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
@@ -124,3 +125,49 @@ div h4 {
         margin: 0px;
         
     }
+
+    #gameSchedule {
+        display: flex;
+        align-items:flex-start;
+        flex-direction: column;
+        padding: 2rem 2rem;
+        
+
+        }
+
+table, th, td {
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    padding:1em;
+
+}
+
+.mes, .equipos, .lugar, .hora{
+    padding: 0 2rem;
+}
+
+.abajoTabla {
+    padding: 1rem 4rem ;
+}
+
+.abajoTabla p {
+    padding: 0.5rem 0rem;
+}
+
+.ultimoParrafo {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+
+#gameSchedule h3 {
+    padding: 1rem 0rem 0rem;
+    font-style: italic;
+}
+
+#gameSchedule h5 {
+    padding: 1rem 0rem;
+    text-decoration: underline;
+    font-style: italic;
+}

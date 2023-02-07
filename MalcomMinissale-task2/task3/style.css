@@ -301,3 +301,15 @@ fieldset {
 #homeIndex p {
     padding-bottom: 1rem;
 }
+
+iframe {
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+#mapas div {
+    display: flex;
+  justify-content: space-evenly;
+   padding-left: 3rem;
+
+}

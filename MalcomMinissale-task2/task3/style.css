@@ -209,3 +209,95 @@ a {
     padding: 20px 5rem;
     border: none;
 }
+
+#registrationForm {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1rem;
+    border-style: none;
+    margin: 1rem;
+    padding: 0 1rem;
+}
+
+#basicos>section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#basicos>section>div {
+    display: inline-flex;
+}
+
+#direccion {
+    display: flex;
+    justify-content: start;
+}
+
+#apellido {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#direccionCSS {
+    display: flex;
+    justify-content: start;
+}
+
+#registrationForm>h3 {
+    text-align: center;
+    font-size: xx-large;
+    padding: 1rem 0rem;
+    
+}
+
+#basicos {
+    margin: 1rem 0rem 2rem;
+    border-style: none;
+    
+}
+
+fieldset {
+    border-style: none;
+}
+
+#closestSchool {
+    margin: 1rem 0rem;
+}
+
+#escuelas {
+    display: flex;
+   
+    
+}
+#escuelas > div {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem 2rem 0 ;
+}
+
+#posiciones, #uniformes {
+    display: flex;
+}
+
+#posiciones > div {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem 2rem 0 ;
+
+}
+
+#uniformes > div {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem 2rem 0 ;
+
+}
+
+#homeIndex h4 {
+    margin-left: 0;
+}
+
+#homeIndex p {
+    padding-bottom: 1rem;
+}

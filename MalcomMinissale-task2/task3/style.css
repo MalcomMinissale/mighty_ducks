@@ -63,8 +63,7 @@ nav {
     background-position: center center;
     background-size: cover;
 
-    padding: 100px 0px 100px; 
-    margin: 0px;
+    height: 13rem;
 }
 
     #upcoming {
@@ -312,4 +311,222 @@ iframe {
   justify-content: space-evenly;
    padding-left: 3rem;
 
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+  
+   
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        position: initial;
+        height: 100px;
+        
+
+
+    }
+
+
+
+    header h1 {
+        font-size: large;
+        
+        padding: 10px 10px 5px;
+        text-align: center;
+        justify-content: center;
+        height: 30px;
+    }
+
+    nav a {
+        display: flex;
+        font-size: small;
+        flex-direction: column;
+        
+        height: 20px;
+        padding: 0;
+
+    }
+
+    #encabezado {
+        background-image: url(./imagenes/design1_image1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height:150px;
+    }
+
+    aside img {
+        height:100px;
+        width: 100px;
+    }
+
+    aside {
+        display: flex;
+        justify-content: center;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #articulosHome {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0rem 1rem;
+        border-style: solid;
+        border-radius: 1rem;
+        margin: 0 1rem;
+    }
+
+    #articulosHome article {
+        margin: 1rem;
+        height:100px;
+    }
+
+    #video {
+        height: 150px;
+        width: 250px;
+        padding: 1rem 1rem;
+    }
+
+    #about2 {
+        height: 300px;
+        position: initial;
+        margin: 10px;
+    }
+
+    #contact2 div h4{
+        margin: 0.5rem 0.5rem;
+
+    }
+
+    #contact2 {
+        
+        position: initial;
+        margin: 10px;
+    }
+
+    #tituloRules div {
+        margin: 1rem 0.5rem;
+    }
+    #gameSchedule {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 0.5rem 0.5rem;
+        margin: 0.5rem;
+    }
+
+    #tabla th, td {
+        padding: 0;
+        font-size: smaller;
+
+        
+    }
+
+    #tabla {
+        border-style: none;
+        padding: 0;
+    }
+
+.abajoTabla, .ultimoParrafo {
+    padding: 1rem 1rem;
+}
+
+#registrationForm div {
+    display: flex;
+    flex-direction: column;
+}
+
+#registrationForm section {
+    display: flex;
+    flex-direction: column;
+}
+}
+@media only screen and (min-width: 767px) and (max-width: 1024px){
+    h1 {
+        font-size: 50px;
+        
+        padding: 15px 10px 5px;
+        text-align: center;
+        justify-content: center;
+        height: 100px;
+    }
+
+    nav {
+        text-align: right;
+        font-size: large;
+        position: relative;
+        bottom: 16rem;
+        right: 2rem;
+        
+    }
+    #articulosHome {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0rem 1rem;
+        border-style: solid;
+        border-radius: 1rem;
+        margin: 1rem 1rem;
+    }
+
+    #articulosHome > div {
+        margin: 1rem;
+        height:100px;
+        
+    }
+    #video {
+        padding: 0;
+        border: none;
+    }
+
+    aside img {
+        height:200px;
+        width: 200px;
+    }
+    #video {
+        height: 125px;
+        width: 200px;
+        padding: 1rem 1rem;
+    }
+    
+    #tituloRules div {
+        margin: 1rem 0.5rem;
+    }
+    #gameSchedule {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    #tabla {
+        border-style: none;
+        padding: 0;
+    }
+
+    #mapas {
+        padding: 1rem 0rem;
+    }
+    #mapas div{
+        padding: 0rem 2rem;
+    }
+    #registrationForm div {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #registrationForm section {
+        display: flex;
+        flex-direction: column;
+    }
 }

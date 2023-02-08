@@ -445,7 +445,7 @@ iframe {
     flex-direction: column;
 }
 
-#registrationForm section {
+#registrationForm .section {
     display: flex;
     flex-direction: column;
 }
@@ -525,8 +525,24 @@ iframe {
         flex-direction: column;
     }
     
-    #registrationForm section {
+    #registrationForm .section {
         display: flex;
         flex-direction: column;
+    }
+    #basicos .article {
+        display: flex;
+        flex-direction: row;
+        margin: 1rem 0 0;
+    }
+    #basicos p {
+        padding: 0 1rem 0 0;
+    }
+
+   /*  #escuelas div{
+        display: flex;
+        flex-direction: row;
+    } */
+    #escuelas input {
+        top: 1rem;
     }
 }

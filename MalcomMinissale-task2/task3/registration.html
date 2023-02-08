@@ -32,7 +32,7 @@
                 <h3>Registration Form</h3>
                 <form action="./show_data.html" method="GET">
                     <fieldset id="basicos">
-                        <section>
+                        <div class="section">
                             <div>
                                 <label for="nombre">Player's First Name:</label>
                                 <input type="text" name="nombre" id="nombre">
@@ -41,14 +41,14 @@
                                 <label for="apellido">Last Name:</label>
                                 <input type="text" name="apellido" id="apellido">
                             </div>    
-                        </section>
-                        <section>
+                        </div>
+                        <div class="section">
                             <div>
                                 <label for="direccion">Street Address:</label>
                                 <input type="text" name="direccion" id="direccion">
                             </div>
-                        </section>
-                        <section>
+                        </div>
+                        <div class="section">
                             <div>
                                 <label for="ciudad">City:</label>
                                 <input type="text" name="ciudad" id="ciudad">
@@ -57,32 +57,34 @@
                                 <label for="codigoPostal">Zip Code:</label>
                                 <input type="text" name="codigoPostal" id="codigoPostal">
                             </div>
-                        </section>
-                        <section>
+                        </div>
+                        <div class="section">
                             <div>    
                                 <label for="nacimiento">Birth Date(mm/dd/yyyy):</label>  
                                 <input type="number" name="nacimiento" id="nacimiento">
                             </div>
-                            <div>
-                                <label for="genero">Gender: Male</label>
-                                <input type="radio" id="masculino" name="genero1" value="male">
-                                <label for="genero">Female</label>
-                                <input type="radio" id="femenino" name="genero1" value="female">
+                            <div class="article">
+                                <label for="male">Gender: Male</label>
+                                <input type="radio" id="male" name="genero1" value="male">
+                                <label for="female">Female</label>
+                                <input type="radio" id="female" name="genero1" value="female">
                             </div>    
-                        </section>
-                        <label for="grado">Grade:</label>
-                        <input type="radio" id="preEscolar" name="grado1" value="Pre-School">
-                        <label for="grado">Pre-School</label>
-                        <input type="radio" id="1st" name="grado1" value="1st">
-                        <label for="grado">1st</label>
-                        <input type="radio" id="2nd" name="grado1" value="2nd">
-                        <label for="grado">2nd</label>
-                        <input type="radio" id="3th" name="grado1" value="3th">
-                        <label for="grado">3th</label>
-                        <input type="radio" id="4th" name="grado1" value="4th">
-                        <label for="grado">4th</label>
-                        <input type="radio" id="5th" name="grado1" value="5th">
-                        <label for="grado">5th</label>
+                        </div>
+                        <div class="article">
+                            <p>Grade:</p>
+                            <input type="radio" id="preEscolar" name="grado1" value="Pre-School">
+                            <label for="preEscolar">Pre-School</label>
+                            <input type="radio" id="primerGrado" name="grado1" value="1st">
+                            <label for="primerGrado">1st</label>
+                            <input type="radio" id="segundoGrado" name="grado1" value="2nd">
+                            <label for="segundoGrado">2nd</label>
+                            <input type="radio" id="tercerGrado" name="grado1" value="3th">
+                            <label for="tercerGrado">3th</label>
+                            <input type="radio" id="cuartoGrado" name="grado1" value="4th">
+                            <label for="cuartoGrado">4th</label>
+                            <input type="radio" id="quintoGrado" name="grado1" value="5th">
+                            <label for="quintoGrado">5th</label>
+                        </div>
                     </fieldset>
                     <h3>Which elementary school do you live near?</h3>
                     <h4 id="closestSchool">Closest school:</h4>
@@ -90,29 +92,29 @@
                         <div>
                             <div>
                                 <input type="radio" id="katzenmaier" name="escuela1" value="katzenmaier">
-                                <label for="escuela">AJ Katzenmaier</label>
+                                <label for="katzenmaier">AJ Katzenmaier</label>
                             </div>
                             <div>
                                 <input type="radio" id="greenbay" name="escuela1" value="greenbay">
-                                <label for="escuela">Greenbay</label>
+                                <label for="greenbay">Greenbay</label>
                             </div>
                             <div>
                                 <input type="radio" id="yeager" name="escuela1" value="yeager">
-                                <label for="escuela">Howard A Yeager</label>
+                                <label for="yeager">Howard A Yeager</label>
                             </div>
                         </div>
                         <div>
                             <div>
                                 <input type="radio" id="hart" name="escuela1" value="hart">
-                                <label for="escuela">Marjorie P Hart</label>
+                                <label for="hart">Marjorie P Hart</label>
                             </div>
                             <div>
                                 <input type="radio" id="north" name="escuela1" value="north">
-                                <label for="escuela">North Elementary</label>
+                                <label for="north">North Elementary</label>
                             </div>
                             <div>
                                 <input type="radio" id="south" name="escuela1" value="south">
-                                <label for="escuela">South Elementary</label>
+                                <label for="south">South Elementary</label>
                             </div>
                         </div>
                     </fieldset>
@@ -121,21 +123,21 @@
                         <div>
                             <div>
                                 <input type="checkbox" id="forward" name="forward" value="forward">
-                                <label for="puesto">Forward</label>
+                                <label for="forward">Forward</label>
                             </div>
                             <div>
                                 <input type="checkbox" id="defense" name="defense" value="defense">
-                                <label for="puesto">Defense</label>
+                                <label for="defense">Defense</label>
                             </div>
                         </div>
                         <div>
                             <div>
                                 <input type="checkbox" id="midfield" name="midfield" value="midfield">
-                                <label for="puesto">Midfield</label>
+                                <label for="midfield">Midfield</label>
                             </div>
                             <div>
                                 <input type="checkbox" id="goalkeeper" name="goalkeeper" value="goalkeeper">
-                                <label for="puesto">Goalkeeper</label>
+                                <label for="goalkeeper">Goalkeeper</label>
                             </div>
                         </div>
                     </fieldset>
@@ -144,33 +146,33 @@
                         <div>
                             <div>
                                 <input type="radio" id="youthSmall" name="talle1" value="youthSmall">
-                                <label for="talle">Youth Small</label>
+                                <label for="youthSmall">Youth Small</label>
                             </div>
                             <div>
                                 <input type="radio" id="youthMedium" name="talle1" value="youthMedium">
-                                <label for="talle">Youth Medium</label>
+                                <label for="youthMedium">Youth Medium</label>
                             </div>
                             <div>
                                 <input type="radio" id="youthLarge" name="talle1" value="youthLarge">
-                                <label for="talle">Youth Large</label>
+                                <label for="youthLarge">Youth Large</label>
                             </div>
                             <div>
                                 <input type="radio" id="small" name="talle1" value="small">
-                                <label for="talle">Small</label>
+                                <label for="small">Small</label>
                             </div>
                         </div>
                         <div>
                             <div>
-                                <input type="radio" id="Medium" name="talle1" value="Medium">
-                                <label for="talle">Medium</label>
+                                <input type="radio" id="medium" name="talle1" value="Medium">
+                                <label for="medium">Medium</label>
                             </div>
                             <div>
-                                <input type="radio" id="Large" name="talle1" value="Large">
-                                <label for="talle">Large</label>
+                                <input type="radio" id="large" name="talle1" value="Large">
+                                <label for="large">Large</label>
                             </div>
                             <div>
                                 <input type="radio" id="extraLarge" name="talle1" value="extraLarge">
-                                <label for="talle">Extra-Large</label>
+                                <label for="extraLarge">Extra-Large</label>
                             </div>
                         </div>
                     </fieldset>
